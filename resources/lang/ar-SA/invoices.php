@@ -50,6 +50,8 @@ return [
 
     'messages' => [
         'email_required'    => 'لا يوجد عنوان البريد إلكتروني لهذا العميل!',
+        'totals_required'   => 'مطلوب إجمالي الفاتورة يرجى تعديل :type وحفظه مرة أخرى.',
+
         'draft'             => 'هذه <b>مسودة</b> الفاتورة و سوف تظهر في النظام بعد ارسالها.',
 
         'status' => [
@@ -63,13 +65,8 @@ return [
                 'await'     => 'في انتظار الدفع',
             ],
         ],
-    ],
 
-    'slider' => [
-        'create'            => ':user أنشأ هذه الفاتورة في :date',
-        'create_recurring'  => ':user أنشأ هذا القالب المتكرر في :date',
-        'schedule'          => 'كرر كل :interval :frequency منذ :date',
-        'children'          => 'تم إنشاء :count فواتير تلقائياً',
+        'name_or_description_required' => 'يجب أن تظهر الفاتورة واحدة على الأقل من <b>:name</b> أو <b>:description</b>.',
     ],
 
     'share' => [
